@@ -1,0 +1,36 @@
+html {
+    font-family: calibri;
+    font-size: 18px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 600px;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #404040;
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    background-color: #a0a0a0;
+}
+
+.action-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.form-group {
+    padding: 5px;
+}
+
+.card mb-3 {
+    padding: 6px;
+}
