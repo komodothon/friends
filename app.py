@@ -27,7 +27,7 @@ def get_db_as_dict(cursor):
 @app.teardown_appcontext
 def close_db(exception):
     db = g.pop('db', None)
-    if db:
+    if db is not None:
         db.close()
 
 

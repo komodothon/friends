@@ -59,7 +59,7 @@ def create_db_and_table():
         name TEXT NOT NULL,
         role TEXT NOT NULL,
         description TEXT NOT NULL,
-        gender INTEGER NOT NULL)
+        gender TEXT NOT NULL)
     """)
 
     connection.commit()
